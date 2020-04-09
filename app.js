@@ -3,7 +3,7 @@ function onReady(){
 
   const ADD_TODO_FORM = document.getElementById('addToDoForm');
   const NEW_TODO_TEXT = document.getElementById('newToDoText');
-  const TODO_LIST = document.getElementbyId('toDoList');
+  const TODO_LIST = document.getElementById('toDoList');
 
   ADD_TODO_FORM.addEventListener('submit', (event) => {
     // avoids redirecting user to a new page
