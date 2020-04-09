@@ -1,5 +1,5 @@
 function onReady(){
-  let toDos = [];
+  let toDoObj = [];
 
   const ADD_TODO_FORM = document.getElementById('addToDoForm');
   const NEW_TODO_TEXT = document.getElementById('newToDoText');
@@ -12,10 +12,10 @@ function onReady(){
     // get the text
     let title = NEW_TODO_TEXT.value;
 
-    toDos.push(title);
-    console.log(toDos);
+    toDoObj.push(title);
+    console.log(toDoObj);
 
-    toDos.push(toDoObj)
+    toDoObj.push(toDoObj)
 
     // create a new li
     let newLi = document.createElement('li');
@@ -40,7 +40,7 @@ function onReady(){
     // attach the li to the ul
     TODO_LIST.appendChild(newLi);
     // empty input
-    NEW_TODO_TEXT.value = '';
+    NEW_TODO_TEXT.value = " ";
   });
 };
 
