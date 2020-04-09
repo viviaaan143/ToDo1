@@ -1,0 +1,21 @@
+h1 {
+  font-family: crimson text;
+  text-align: center;
+  background-color: #E8BA9E;
+
+}
+
+label {
+  font-family: crimson text;
+}
+
+body {
+ height: 60vh;
+ justify-content: center;
+ text-align: center;
+}
+
+.mdl-button:hover {
+  background-color: #E8BA9E;
+
+}
