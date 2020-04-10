@@ -40,6 +40,7 @@ function onReady(){
     id++;
 
     NEW_TODO_TEXT.value = '';
+    localStorage.setItem('text', JSON.stringify(toDos));
     renderTheUI();
   }
     ADD_TODO_FORM.addEventListener('submit', event => {
